@@ -208,7 +208,7 @@ def move_vedio(vedio_path, des_dir):
 	move_file(vedio_path, des_path)
 
 def move_pic(vedio_path, des_dir):
-	if not (vedio_path.lower().endswith(".jpg") or vedio_path..lower().endswith(".png")):
+	if not (vedio_path.lower().endswith(".jpg") or vedio_path.lower().endswith(".png")):
 		return
 
 	print vedio_path, des_dir

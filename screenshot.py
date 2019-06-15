@@ -167,7 +167,7 @@ class FileHelper:
 	def is_movie(file_name):
 		ext_name_list = ["rmvb", "mkv", "mp4", "wmv", "avi"];
 		for ext in ext_name_list:
-			if file_name.endswith(ext.lower()):
+			if file_name.lower().endswith(ext):
 				return 1
 
 		return 0
